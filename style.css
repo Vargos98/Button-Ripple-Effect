@@ -1,0 +1,19 @@
+.wrapper{
+    display: grid;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 50rem;
+    margin-top: 25rem;
+}
+.btn1{
+    background-color: aqua;
+    
+    padding: 1rem;
+    border-radius: 20%;
+}
+.btn2{
+    background-color: aquamarine;
+    
+    padding: 1rem;
+    border-radius: 20%;
+}
