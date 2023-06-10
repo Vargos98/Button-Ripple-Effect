@@ -1,19 +1,36 @@
-.wrapper{
-    display: grid;
-    height: 100%;
-    flex-direction: column;
-    margin-left: 50rem;
-    margin-top: 25rem;
+*{
+    background-color: cadetblue;
 }
-.btn1{
+.wrapper{
+    border: black;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-top: 20rem;
+}
+.btn1 {
+    position: relative;
+    display: inline;
     background-color: aqua;
-    
-    padding: 1rem;
+    padding: 20px;
     border-radius: 20%;
+    background: linear-gradient(90deg,orange,red);
 }
 .btn2{
     background-color: aquamarine;
-    
-    padding: 1rem;
+    position: relative;
+    display: inline;
+    padding: 20px;
     border-radius: 20%;
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
+}
+p{
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text{
+     font-size: 5rem;
+
 }
